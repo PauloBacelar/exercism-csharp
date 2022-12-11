@@ -7,8 +7,9 @@ namespace CursoCSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                {"001 - Hello World", _001HelloWorld.Executar},
-                {"002 - Lucian's Luscious Lasagna", _002LusciousLasagna.Executar},
+                {"001 - Hello World", HelloWorld.Executar},
+                {"002 - Lucian's Luscious Lasagna", LusciousLasagna.Executar},
+                {"003 -  Annalyn's Infiltration ", QuestLogic.Executar},
             });
 
             central.SelecionarEExecutar();

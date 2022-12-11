@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Exercism.Exercises {
-    public class Lasagna {
+    class Lasagna {
         public Lasagna() { }
 
         public int ExpectedMinutesInOven() {
@@ -33,7 +33,7 @@ namespace Exercism.Exercises {
         }
     }
 
-    class _002LusciousLasagna {
+    class LusciousLasagna {
         public static void Executar() {
             var lasagna = new Lasagna();
 
