@@ -11,6 +11,7 @@ namespace CursoCSharp {
                 {"002 - Lucian's Luscious Lasagna", LusciousLasagna.Executar},
                 {"003 -  Annalyn's Infiltration", QuestLogic.Executar},
                 {"004 -  Cars, Assmeble!", AssemblyLine.Executar},
+                {"005 -  Log Levels", LogLine.Executar},
             });
 
             central.SelecionarEExecutar();
