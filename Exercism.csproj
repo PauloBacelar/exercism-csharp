@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Exercises\awphk4ee.22d~" />
+  </ItemGroup>
+
 </Project>
