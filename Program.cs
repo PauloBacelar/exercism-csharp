@@ -14,6 +14,7 @@ namespace CursoCSharp {
                 {"005 - Log Levels", LogLine.Executar},
                 {"006 - Elon's Toys", RemoteControlCar.Executar},
                 {"007 - Interest is Interesting", SavingsAccount.Executar},
+                {"008 - Bird Watcher", BirdCount.Executar},
             });
 
             central.SelecionarEExecutar();
