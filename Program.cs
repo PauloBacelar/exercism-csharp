@@ -12,10 +12,11 @@ namespace CursoCSharp {
                 {"003 - Annalyn's Infiltration", QuestLogic.Executar},
                 {"004 - Cars, Assmeble!", AssemblyLine.Executar},
                 {"005 - Log Levels", LogLine.Executar},
-                {"006 - Elon's Toys", RemoteControlCar.Executar},
+                {"006 - Elon's Toys", RemoteControlCar2.Executar},
                 {"007 - Interest is Interesting", SavingsAccount.Executar},
                 {"008 - Bird Watcher", BirdCount.Executar},
                 {"009 - Squeaky Clean", Identifier.Executar},
+                {"010 - Need for Speed", RemoteControlCar.Executar},
             });
 
             central.SelecionarEExecutar();

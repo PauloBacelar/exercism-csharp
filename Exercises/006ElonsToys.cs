@@ -1,15 +1,15 @@
 ﻿namespace Exercism.Exercises {
-    class RemoteControlCar {
+    class RemoteControlCar2 {
         private static int DistanceDriven;
         private static int Battery;
 
-        public RemoteControlCar() {
+        public RemoteControlCar2() {
             DistanceDriven = 0;
             Battery = 100;
         }
 
-        public static RemoteControlCar Buy() {
-            return new RemoteControlCar();
+        public static RemoteControlCar2 Buy() {
+            return new RemoteControlCar2();
         }
 
         public string DistanceDisplay() {
@@ -28,7 +28,7 @@
         }
 
         public static void Executar() {
-            RemoteControlCar car = RemoteControlCar.Buy();
+            RemoteControlCar2 car = RemoteControlCar2.Buy();
 
             Console.WriteLine(car.DistanceDisplay());
             Console.WriteLine(car.BatteryDisplay());
