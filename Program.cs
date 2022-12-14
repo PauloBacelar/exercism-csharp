@@ -15,6 +15,7 @@ namespace CursoCSharp {
                 {"006 - Elon's Toys", RemoteControlCar.Executar},
                 {"007 - Interest is Interesting", SavingsAccount.Executar},
                 {"008 - Bird Watcher", BirdCount.Executar},
+                {"009 - Squeaky Clean", Identifier.Executar},
             });
 
             central.SelecionarEExecutar();
