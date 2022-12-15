@@ -17,7 +17,8 @@ namespace CursoCSharp {
                 {"008 - Bird Watcher", BirdCount.Executar},
                 {"009 - Squeaky Clean", Identifier.Executar},
                 {"010 - Need for Speed", RemoteControlCar.Executar},
-                {"011 -  Booking up for Beauty", Appointment.Executar},
+                {"011 - Booking up for Beauty", Appointment.Executar},
+                {"012 - Wizards and Warriors ", Character.Executar},
             });
 
             central.SelecionarEExecutar();
